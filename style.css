@@ -940,9 +940,11 @@ h3 {
 
 .contact__grid {
     display: grid;
-    grid-template-columns: 1fr 1.1fr;
+    grid-template-columns: 1fr;
     gap: 72px;
     align-items: start;
+    max-width: 720px;
+    margin: 0 auto;
 }
 
 .contact__info {
