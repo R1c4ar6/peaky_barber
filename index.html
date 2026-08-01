@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peaky Barber — Premium Barber Shop in Granada</title>
+    <meta name="description" content="Cortes clásicos, estilo moderno en el corazón de Granada. Peluquería de alta gama que ofrece cortes de pelo clásicos, degradados y arreglo de barba.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500&display=swap" rel="stylesheet">
+    <link rel="icon" href="data:,">
+    <link rel="stylesheet" href="style.css">
+    <!-- ===== Favicon ===== -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/imgs/logo.webp">
+</head>
+<body>
+
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <!-- ===== HEADER ===== -->
+    <header class="header">
+        <div class="container header__inner">
+            <a class="header__logo" href="#top">Peaky <span>Barber</span></a>
+            <nav class="header__nav" aria-label="Primary navigation">
+                <a href="#about">Sobre Nosotros</a>
+                <a href="#services">Servicios</a>
+                <a href="#gallery">Galería</a>
+                <a href="#reviews">Reseñas</a>
+                <a href="#contact" class="btn btn--primary btn--sm header__cta">Reservar Ahora</a>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main">
+
+        <!-- ===== 1. HERO ===== -->
+        <section id="top" class="hero">
+            <div class="hero__overlay"></div>
+            <div class="container hero__content">
+                <p class="hero__label">Premium Barber Shop</p>
+                <h1 class="hero__title">Peaky <span>Barber</span></h1>
+                <p class="hero__subtitle">Cortes clásicos, estilo moderno en el corazón de Granada.</p>
+                <div class="hero__actions">
+                    <a href="#contact" class="btn btn--primary">Reservar Cita</a>
+                    <a href="#services" class="btn btn--ghost">Ver Servicios</a>
+                </div>
+            </div>
+            <div class="hero__scroll" aria-hidden="true">
+                <span class="hero__scroll-text">Scroll</span>
+                <span class="hero__scroll-line"></span>
+            </div>
+        </section>
+
+        <!-- ===== 2. ABOUT ===== -->
+        <section id="about" class="about section">
+            <div class="container">
+                <div class="about__grid">
+                    <div class="about__media">
+                        <div class="about__frame">
+                            <img src="https://images.unsplash.com/photo-1585747860715-2ba37e788b70?q=80&w=900&auto=format&fit=crop" alt="Barber carefully trimming a client's beard" loading="lazy">
+                        </div>
+                    </div>
+                    <div class="about__text">
+                        <p class="section__label">Nuestra Filosofía</p>
+                        <h2 class="about__title">Artesanía. Estilo. Tradición.</h2>
+                        <p class="about__desc">Peaky Barber es donde el barbero clásico se encuentra con el borde moderno. Nos especializamos en cortes clásicos y contemporáneos, arreglos de barba precisos y el tipo de detalle meticuloso que convierte un corte de pelo en una experiencia.</p>
+                        <p class="about__desc">Cada visita está construida en torno a ti — desde la consulta hasta el final del trato con toalla caliente. Sin cortes apresurados, sin estilos de fábrica. Solo una experiencia auténtica de barbero, creada con habilidad y un amor genuino por el oficio.</p>
+                        <ul class="about__highlights">
+                            <li>Cortes expertos adaptados a tu forma facial</li>
+                            <li>Productos premium de aseo en cada silla</li>
+                            <li>La experiencia auténtica y sin prisa del barbero</li>
+                        </ul>
+                        <div class="about__stats">
+                            <div class="about__stat">
+                                <span class="about__stat-value">12+</span>
+                                <span class="about__stat-label">Años de Artesanía</span>
+                            </div>
+                            <div class="about__stat">
+                                <span class="about__stat-value">25K</span>
+                                <span class="about__stat-label">Cortes Entregados</span>
+                            </div>
+                            <div class="about__stat">
+                                <span class="about__stat-value">4.9</span>
+                                <span class="about__stat-label">Puntuación de Clientes</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== 3. SERVICES ===== -->
+        <section id="services" class="services section section--alt">
+            <div class="container">
+                <div class="section__header">
+                    <p class="section__label">Servicios</p>
+                    <h2 class="section__title">Lo que Ofrecemos</h2>
+                    <p class="section__subtitle">Cada servicio se realiza con precisión, utilizando solo productos premium.</p>
+                </div>
+                <div class="services__grid">
+                    <article class="service-card">
+                        <div class="service-card__icon" aria-hidden="true">✂</div>
+                        <h3 class="service-card__title">Corte Clásico</h3>
+                        <span class="service-card__price">€18</span>
+                        <p class="service-card__desc">Un corte tradicional con tijeras y peinilla, terminado con un aspecto atemporal y a medida.</p>
+                        <a href="#contact" class="service-card__link">Reservar este servicio</a>
+                    </article>
+                    <article class="service-card">
+                        <div class="service-card__icon" aria-hidden="true">⬇</div>
+                        <h3 class="service-card__title">Skin Fade</h3>
+                        <span class="service-card__price">€20</span>
+                        <p class="service-card__desc">Una transición perfecta desde la piel hasta la longitud, con bordes afilados y un aspecto limpio en la parte superior.</p>
+                        <a href="#contact" class="service-card__link">Reservar este servicio</a>
+                    </article>
+                    <article class="service-card">
+                        <div class="service-card__icon" aria-hidden="true">✦</div>
+                        <h3 class="service-card__title">Recorte de Barba</h3>
+                        <span class="service-card__price">€10</span>
+                        <p class="service-card__desc">Líneas esculpidas, bordes nítidos y un acabado con toalla caliente para una barba bien cuidada.</p>
+                        <a href="#contact" class="service-card__link">Reservar este servicio</a>
+                    </article>
+                    <article class="service-card">
+                        <div class="service-card__icon" aria-hidden="true">❖</div>
+                        <h3 class="service-card__title">Hair + Beard</h3>
+                        <span class="service-card__price">€26</span>
+                        <p class="service-card__desc">The full ritual — head and facial hair groomed in perfect harmony.</p>
+                        <a href="#contact" class="service-card__link">Reservar este servicio</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== 4. WHY CHOOSE US ===== -->
+        <section id="why" class="why section">
+            <div class="container">
+                <div class="section__header">
+                    <p class="section__label">La Diferencia de Peaky</p>
+                    <h2 class="section__title">¿Por qué Elegirnos?</h2>
+                </div>
+                <div class="why__grid">
+                    <div class="feature-card">
+                        <div class="feature-card__icon" aria-hidden="true"><span>⚜</span></div>
+                        <h3 class="feature-card__title">Experienced Barbers</h3>
+                        <p class="feature-card__desc">Master craftsmen with years of training and an eye for detail.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-card__icon" aria-hidden="true"><span>🫧</span></div>
+                        <h3 class="feature-card__title">Premium Products</h3>
+                        <p class="feature-card__desc">Only the finest oils, tonics and tools touch your hair.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-card__icon" aria-hidden="true"><span>☕</span></div>
+                        <h3 class="feature-card__title">Relaxed Atmosphere</h3>
+                        <p class="feature-card__desc">A calm, masculine sanctuary built for unwinding.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-card__icon" aria-hidden="true"><span>⌁</span></div>
+                        <h3 class="feature-card__title">Attention to Detail</h3>
+                        <p class="feature-card__desc">Every line, every layer, every last hair considered.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== 5. GALLERY ===== -->
+        <section id="gallery" class="gallery section section--alt">
+            <div class="container">
+                <div class="section__header">
+                    <p class="section__label">Portfolio</p>
+                    <h2 class="section__title">The Craft</h2>
+                    <p class="section__subtitle">A glimpse of the work that comes out of our chairs.</p>
+                </div>
+            </div>
+            <div class="container gallery__grid">
+                <figure class="gallery__item">
+                    <img src="https://images.unsplash.com/photo-1559599101-f09722fb4948?q=80&w=700&auto=format&fit=crop" alt="Two clients in the barbershop" loading="lazy">
+                </figure>
+                <figure class="gallery__item">
+                    <img src="https://images.unsplash.com/photo-1621605815971-fbc98d665033?q=80&w=700&auto=format&fit=crop" alt="Barber shaping a fade with clippers" loading="lazy">
+                </figure>
+                <figure class="gallery__item">
+                    <img src="https://images.unsplash.com/photo-1503606709844-1c6ce0f1a5e8?q=80&w=700&auto=format&fit=crop" alt="Barber cutting hair with comb and scissors" loading="lazy">
+                </figure>
+                <figure class="gallery__item">
+                    <img src="https://images.unsplash.com/photo-1599357025522-b88d61c70c9e?q=80&w=700&auto=format&fit=crop" alt="Barbershop interior with leather chairs" loading="lazy">
+                </figure>
+                <figure class="gallery__item">
+                    <img src="https://images.unsplash.com/photo-1522529599102-193c0d76b5b6?q=80&w=700&auto=format&fit=crop" alt="Classic barber pole sign" loading="lazy">
+                </figure>
+                <figure class="gallery__item">
+                    <img src="https://images.unsplash.com/photo-1585747860715-2ba37e788b70?q=80&w=700&auto=format&fit=crop" alt="Close-up of a precision beard trim" loading="lazy">
+                </figure>
+            </div>
+        </section>
+
+        <!-- ===== 6. REVIEWS ===== -->
+        <section id="reviews" class="reviews section">
+            <div class="container">
+                <div class="section__header">
+                    <p class="section__label">Testimonials</p>
+                    <h2 class="section__title">What Clients Say</h2>
+                    <p class="section__subtitle">Real words from the men who sit in our chairs.</p>
+                </div>
+                <div class="reviews__grid">
+                    <article class="review-card">
+                        <div class="review-card__stars" aria-label="Rated 5 out of 5 stars">★★★★★</div>
+                        <p class="review-card__text">“Booking was effortless and the cut was flawless. Antonio read my face shape perfectly and the hot towel finish is a ritual I now crave. The best barbershop in Granada, hands down.”</p>
+                        <footer class="review-card__author">
+                            <span class="review-card__avatar" aria-hidden="true">MA</span>
+                            <div>
+                                <span class="review-card__name">Miguel Álvarez</span>
+                                <span class="review-card__meta">Local Regular</span>
+                            </div>
+                        </footer>
+                    </article>
+                    <article class="review-card">
+                        <div class="review-card__stars" aria-label="Rated 5 out of 5 stars">★★★★★</div>
+                        <p class="review-card__text">“As an expat, finding a barber who actually listens was a struggle — until Peaky Barber. The skin fade is razor sharp, the beard work is meticulous, and they made me feel like a regular from day one.”</p>
+                        <footer class="review-card__author">
+                            <span class="review-card__avatar" aria-hidden="true">OH</span>
+                            <div>
+                                <span class="review-card__name">Oliver Hartley</span>
+                                <span class="review-card__meta">Visiting Client</span>
+                            </div>
+                        </footer>
+                    </article>
+                    <article class="review-card">
+                        <div class="review-card__stars review-card__stars--4" aria-label="Rated 4 out of 5 stars">★★★★<span aria-hidden="true">☆</span></div>
+                        <p class="review-card__text">“Consistently excellent cuts and a spotless, well-designed space. The coffee while you wait is a nice touch. A star off only because weekends book out fast — so plan ahead!”</p>
+                        <footer class="review-card__author">
+                            <span class="review-card__avatar" aria-hidden="true">LP</span>
+                            <div>
+                                <span class="review-card__name">Lucía Pérez</span>
+                                <span class="review-card__meta">Recommends Peaky</span>
+                            </div>
+                        </footer>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== 7. CONTACT ===== -->
+        <section id="contact" class="contact section section--alt">
+            <div class="container">
+                <div class="section__header">
+                    <p class="section__label">Ponte en Contacto</p>
+                    <h2 class="section__title">Reserva tu Visita</h2>
+                    <p class="section__subtitle">Ven a nuestro taller, llama con antelación o envíanos un mensaje — nos encargamos del resto.</p>
+                </div>
+                <div class="contact__grid">
+                    <div class="contact__info">
+                        <div class="contact__item">
+                            <span class="contact__label">Dirección</span>
+                            <p class="contact__value">Carrera de la Virgen 50 <br>Centro, 18009 Granada</p>
+                        </div>
+                        <div class="contact__item">
+                            <span class="contact__label">Teléfono</span>
+                            <p class="contact__value"><a href="tel:+34605696934">+34 605 696 934</a></p>
+                        </div>
+                        <div class="contact__item">
+                            <span class="contact__label">Horario de Apertura</span>
+                            <p class="contact__value">Lun – Vie: 9:30 – 20:00<br>Sáb: 10:00 – 18:00<br>Dom: Cerrado</p>
+                        </div>
+                        <a class="btn btn--ghost contact__map" href="https://maps.app.goo.gl/7PmgHARSNLWKmM5DA" target="_blank" rel="noopener">
+                            Ver en Google Maps
+                            <span aria-hidden="true">→</span>
+                        </a>
+                    </div>
+                    <form class="contact__form" action="#" method="post">
+                        <div class="form__group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" placeholder="Your full name" autocomplete="name" required>
+                        </div>
+                        <div class="form__group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="your@email.com" autocomplete="email" required>
+                        </div>
+                        <div class="form__group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" placeholder="Tell us what you'd like to book…" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn--primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ===== 8. FOOTER ===== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__top">
+                <a class="footer__brand" href="#top">Peaky <span>Barber</span></a>
+                <nav class="footer__nav" aria-label="Footer navigation">
+                    <a href="#about">Sobre Nosotros</a>
+                    <a href="#services">Servicios</a>
+                    <a href="#gallery">Galería</a>
+                    <a href="#reviews">Reseñas</a>
+                    <a href="#contact">Contacto</a>
+                </nav>
+                <div class="footer__social">
+                    <a href="#" class="footer__social-link" aria-label="Síguenos en Instagram">IG</a>
+                    <a href="#" class="footer__social-link" aria-label="Síguenos en Facebook">fb</a>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p class="footer__copyright">© 2026 Peaky Barber, Granada. All rights reserved.</p>
+                <p class="footer__tagline">Cortes clásicos, estilo moderno.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
